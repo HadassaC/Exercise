@@ -1,0 +1,5 @@
+com\exercise\exercise\ExerciseApplication.class
+com\exercise\exercise\configuration\RabbitMQConfiguration.class
+com\exercise\exercise\controller\WebhookController.class
+com\exercise\exercise\consumer\ConsumerService.class
+com\exercise\exercise\producer\ProducerService.class
