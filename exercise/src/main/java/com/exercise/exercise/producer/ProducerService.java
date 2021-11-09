@@ -24,6 +24,5 @@ public class ProducerService {
             System.out.println("message queue not exists" + ex);
             throw ex;
         }
-        rabbitMQConfiguration.getAllQueues().add(queueName);
     }
 }
