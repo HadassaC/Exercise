@@ -26,6 +26,11 @@ public class RabbitMQConfiguration {
 
 
     private static final Set<String> allQueues = new HashSet<>();
+    
+    //TODO Initializing the queues according to the configuration file (.YML), I did not have enough time for this, but this is certainly the correct initialization
+    allQueues.add("SMS");
+    allQueues.add("EMAIL");
+    allQueues.add("WHATSAPP");
 
     public Set<String> getAllQueues() {
         return allQueues;
